@@ -38,8 +38,8 @@ const Choose: React.FC<ChooseProps> = ({
   redirect = "/seller/choose-industry", // Default value for page
 }) => {
   const router = useRouter();
-  const { data: courses, isLoading: load, isError } = useGetCoursesQuery({});
-  console.log({ courses, load, isError });
+  // const { data: courses, isLoading: load, isError } = useGetCoursesQuery({});
+  // console.log({ courses, load, isError });
 
   const items = [
     "Insurance Brokerage",
